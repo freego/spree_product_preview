@@ -1,5 +1,5 @@
 <!-- insert_bottom "[data-hook='admin_product_tabs']" -->
-<%= content_tag :li do %>
-  <%= link_to_with_icon 'eye', Spree.t(:preview_product),
+<li>
+  <%= link_to_with_icon 'eye-open', Spree.t(:preview_product),
                         product_path(@product), target: '_blank' %>
-<% end %>
+</li>
